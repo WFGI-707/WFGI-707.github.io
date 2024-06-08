@@ -1,5 +1,5 @@
 body {
-  background-image: url(/images/3d-rendering-abstract-black-white-backgroun1d.jpg);
+  background-image: url(/images/background.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,7 +8,7 @@ body {
 
 .navigation {
   position: relative;
-  background-image: url(/images/black-grunge-texture.png);
+  background-image: url(/images/texture.png);
   background-position: inherit;
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,6 +53,7 @@ body {
 }
 
 .navigation-aboutme {
+  text-decoration: none;
   display: block;
   font-size: 23px;
   position: absolute;
@@ -68,6 +69,25 @@ body {
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #ff0000;
   text-shadow: 0 0 1em #e60909, 0 0 1em #e60909, 0 0 0.2em #e60909;
+}
+
+.navigation-github {
+  text-decoration: none;
+  display: block;
+  font-size: 23px;
+  position: absolute;
+  color: aliceblue;
+  font-family: inter;
+  font-weight: 600;
+  margin-top: 28px;
+  margin-left: 244px;
+}
+
+.navigation-github:hover {
+  color: #ffffff00;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #2dba4e;
+  text-shadow: 0 0 1em #2d9a46, 0 0 1em #2d9a46, 0 0 0.2em #2d9a46;
 }
 
 .profile-box {
