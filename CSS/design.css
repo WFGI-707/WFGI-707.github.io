@@ -1,0 +1,36 @@
+.design-box {
+  margin: auto;
+  border: 2px solid #ff00b3;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 100px;
+}
+
+.design1,
+.design1-1,
+.design1-2 {
+  float: none;
+  overflow: hidden;
+}
+
+.design1 {
+  margin: 0 auto;
+  width: 20px;
+  height: 100px;
+  background: #ff0000;
+}
+
+.design1-1 {
+  margin: 0 auto;
+  width: 20px;
+  height: 15px;
+  background: #00b7ff;
+  transform: skewY(30deg);
+}
+
+.design1-2 {
+  width: 70px;
+  height: 19px;
+  background: #fafeff;
+  transform: skewX(30deg);
+}
